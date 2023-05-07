@@ -8,4 +8,5 @@ let app = createApp(App)
 app.config.globalProperties.$stateService = StateAPIService
 
 // createApp(App).mount('#app')
-.mount('#app')
+// .mount('#app')
+app.mount('#app')
