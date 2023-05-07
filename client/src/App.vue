@@ -1,13 +1,20 @@
 <template>
-  
+  <page-header></page-header>
+
+  <p>Todo - app content</p>
+  <page-footer></page-footer>
 </template>
 
 <script>
 
+import PageHeader from '@/components/PageHeader.vue'
+import PageFooter from '@/components/PageFooter.vue'
+
 export default {
   name: 'App',
   components: {
-    // HelloWorld
+    PageHeader,
+    PageFooter
   },
   mounted(){
     this.$stateService.getAllStates().then( states => console.log(states))
@@ -22,6 +29,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  /* margin-top: 60px; */
 }
 </style>
