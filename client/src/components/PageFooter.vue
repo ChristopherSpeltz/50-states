@@ -1,20 +1,32 @@
 <template>
-    <div>
-        <p>todo - links to different parts of the site</p>
-        <p>Header image by
-            <a href="https://unsplash.com/photos/l68Z6eF2peA">@Andrew Stutesman on Unsplash</a>
-        </p>
-    </div>
-</template>
+  <div>
+    <div id="navigation-links">
+      <span class="nav-link">
+        <router-link to="/">Home</router-link>
+      </span>
 
+      <span class="nav-link">
+        <router-link to="/about">About this site</router-link>
+      </span>
+    </div>
+    <p>
+      Header image by
+      <a href="https://unsplash.com/photos/l68Z6eF2peA"
+        >@Andrew Stutesman on Unsplash</a
+      >
+    </p>
+  </div>
+</template>
 
 <script>
 export default {
-    name: 'PageFooter'
-}
-
+  name: "PageFooter",
+};
 </script>
 
 <style scoped>
 
+.nav-link {
+    margin: 1rem
+}
 </style>

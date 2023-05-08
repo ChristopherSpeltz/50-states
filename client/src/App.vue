@@ -1,7 +1,8 @@
 <template>
   <page-header></page-header>
 
-  <p>Todo - app content</p>
+  <router-view></router-view>
+
   <page-footer></page-footer>
 </template>
 
@@ -9,16 +10,18 @@
 
 import PageHeader from '@/components/PageHeader.vue'
 import PageFooter from '@/components/PageFooter.vue'
+import StateList from '@/components/StateList.vue'
 
 export default {
   name: 'App',
   components: {
     PageHeader,
-    PageFooter
+    PageFooter,
+    StateList
   },
-  mounted(){
-    this.$stateService.getAllStates().then( states => console.log(states))
-  }
+  // mounted(){
+  //   this.$stateService.getAllStates().then( states => console.log(states))
+  // }
 }
 </script>
 
