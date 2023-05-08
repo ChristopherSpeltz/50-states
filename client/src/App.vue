@@ -1,3 +1,5 @@
+<!-- Template code for application -->
+
 <template>
   <page-header></page-header>
 
@@ -6,6 +8,7 @@
   <page-footer></page-footer>
 </template>
 
+<!-- code to import components into app -->
 <script>
 
 import PageHeader from '@/components/PageHeader.vue'
@@ -19,12 +22,12 @@ export default {
     PageFooter,
     StateList
   },
-  // mounted(){
-  //   this.$stateService.getAllStates().then( states => console.log(states))
-  // }
+
 }
 </script>
 
+
+<!-- style code for page -->
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

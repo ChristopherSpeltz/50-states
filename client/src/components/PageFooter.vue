@@ -1,3 +1,6 @@
+<!-- code for footer component, including export and styling -->
+
+
 <template>
   <div>
     <div id="navigation-links">

@@ -1,3 +1,7 @@
+<!-- code for header component, including export and styling -->
+
+
+
 <template>
     <div id="block-header">
         <h1 id="title">Have you visited every state?</h1>

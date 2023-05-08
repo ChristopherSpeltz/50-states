@@ -9,8 +9,6 @@ let app = createApp(App)
 
 app.config.globalProperties.$stateService = StateAPIService
 
-// createApp(App).mount('#app')
-// .mount('#app')
 app.use(router)
 
 app.mount('#app')
