@@ -1,3 +1,5 @@
+<!-- code for AboutSite component, including export and styling -->
+
 <template>
     <div>
         <h2>Where have you traveled to?</h2>
