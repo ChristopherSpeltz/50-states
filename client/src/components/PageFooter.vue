@@ -18,6 +18,9 @@
         >@Andrew Stutesman on Unsplash</a
       >
     </p>
+
+    <p><a target="_blank" href="https://icons8.com/icon/43632/map">Map</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+    </p>
   </div>
 </template>
 
